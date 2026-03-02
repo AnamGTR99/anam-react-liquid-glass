@@ -2,6 +2,8 @@
 
 iOS 26-inspired liquid glass components for React. Zero dependencies beyond React — no Tailwind, no CSS imports, no setup.
 
+https://github.com/AnamGTR99/anam-react-liquid-glass/raw/main/screen_rec_react.mov
+
 **Features:**
 - Cursor-reactive specular highlights with gaussian falloff
 - Smooth 3D perspective tilt
