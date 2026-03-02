@@ -264,13 +264,17 @@ function App() {
           </span>
         </LiquidGlassPill>
 
-        {/* Pill nav bar */}
-        <LiquidGlassPill borderRadius="20px" style={{ padding: '12px 32px', display: 'flex', gap: '32px' }}>
-          {['Home', 'About', 'Work', 'Contact'].map((label) => (
-            <span key={label} style={{ fontSize: '14px', fontWeight: 500, color: 'rgba(71,85,105,0.85)' }}>
-              {label}
-            </span>
-          ))}
+        {/* LinkedIn */}
+        <LiquidGlassPill
+          borderRadius="16px"
+          onClick={() => window.open('https://www.linkedin.com/in/sheik-anam-milfer-9aa15b213/', '_blank')}
+          style={{ padding: '14px 16px', display: 'flex', alignItems: 'center' }}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(71,85,105,0.7)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
         </LiquidGlassPill>
       </div>
     </AuroraDemo>
