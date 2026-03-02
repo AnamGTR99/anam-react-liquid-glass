@@ -1,4 +1,4 @@
-# react-liquid-glass
+# anam-react-liquid-glass
 
 iOS 26-inspired liquid glass components for React. Zero dependencies beyond React — no Tailwind, no CSS imports, no setup.
 
@@ -15,7 +15,13 @@ iOS 26-inspired liquid glass components for React. Zero dependencies beyond Reac
 ## Install
 
 ```bash
-npm install react-liquid-glass
+npm install anam-react-liquid-glass
+```
+
+Or install directly from GitHub:
+
+```bash
+npm install AnamGTR99/anam-react-liquid-glass
 ```
 
 ## Components
@@ -25,7 +31,7 @@ npm install react-liquid-glass
 Frosted white glass (55% opacity) — ideal for cards, panels, modals.
 
 ```tsx
-import { LiquidGlassCard } from 'react-liquid-glass'
+import { LiquidGlassCard } from 'anam-react-liquid-glass'
 
 <LiquidGlassCard style={{ padding: '32px' }} borderRadius="28px">
   <h2>Hello</h2>
@@ -47,7 +53,7 @@ import { LiquidGlassCard } from 'react-liquid-glass'
 Ultra-translucent glass (~10% opacity) — ideal for buttons, nav bars, pills over vibrant backgrounds.
 
 ```tsx
-import { LiquidGlassPill } from 'react-liquid-glass'
+import { LiquidGlassPill } from 'anam-react-liquid-glass'
 
 <LiquidGlassPill onClick={() => console.log('click')} style={{ padding: '14px 36px' }}>
   Get Started
@@ -74,8 +80,8 @@ import { LiquidGlassPill } from 'react-liquid-glass'
 ## Run the demo
 
 ```bash
-git clone https://github.com/AnamGTR99/react-liquid-glass.git
-cd react-liquid-glass
+git clone https://github.com/AnamGTR99/anam-react-liquid-glass.git
+cd anam-react-liquid-glass
 npm install
 npm run demo
 ```

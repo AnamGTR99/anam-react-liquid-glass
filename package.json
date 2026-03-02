@@ -1,6 +1,6 @@
 {
-  "name": "react-liquid-glass",
-  "version": "0.1.0",
+  "name": "anam-react-liquid-glass",
+  "version": "1.0.0",
   "description": "iOS 26-inspired liquid glass components for React — cursor-reactive shine, 3D tilt, specular highlights, and rim lighting.",
   "type": "module",
   "main": "dist/index.cjs",
@@ -51,7 +51,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnamGTR99/react-liquid-glass.git"
+    "url": "https://github.com/AnamGTR99/anam-react-liquid-glass.git"
   },
   "author": "Anam"
 }
