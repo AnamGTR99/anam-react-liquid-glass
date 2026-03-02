@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import { useRef, useEffect, useCallback } from 'react'
-import { LiquidGlassCard, LiquidGlassPill } from 'react-liquid-glass'
+import { LiquidGlassPill } from 'react-liquid-glass'
 
 // ---------------------------------------------------------------------------
 // HSL → Hex helper
@@ -247,15 +247,15 @@ function App() {
           anam-react-liquid-glass
         </h1>
 
-        {/* Card demo */}
-        <LiquidGlassCard style={{ padding: '40px 48px', maxWidth: '420px', width: '100%' }} borderRadius="28px">
+        {/* Card-shaped pill */}
+        <LiquidGlassPill borderRadius="28px" shineSize={320} style={{ padding: '40px 48px', maxWidth: '420px', width: '100%' }}>
           <h2 style={{ margin: '0 0 12px', fontSize: '22px', fontWeight: 700, color: '#1a1a2e', letterSpacing: '-0.02em' }}>
             LiquidGlassCard
           </h2>
           <p style={{ margin: 0, fontSize: '15px', lineHeight: 1.6, color: '#3a3a5c' }}>
             Frosted glass with cursor-reactive specular highlights, 3D tilt, and rim lighting. Move your mouse over the card.
           </p>
-        </LiquidGlassCard>
+        </LiquidGlassPill>
 
         {/* Pill button */}
         <LiquidGlassPill onClick={() => alert('Clicked!')} style={{ padding: '16px 40px' }}>
